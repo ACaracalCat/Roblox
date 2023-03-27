@@ -49,7 +49,7 @@ bg:Destroy()
 bv:Destroy() 
 plr.Character.Humanoid.PlatformStand = false 
 end 
-elseif key:lower() == "w" then 
+if key:lower() == "w" then 
 ctrl.f = 1 
 elseif key:lower() == "s" then 
 ctrl.b = -1 
